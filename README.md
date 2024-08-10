@@ -7,4 +7,4 @@
 
 <p> Hola, Bienvenido a 30 Days to Microsoft, el lugar donde crearas, subiras, arreglaras y borraras todos tus proyectos personal  <p>
 
-<p> Solo recuerda que *NO* es una carrera sino **_un viaje_** <p>
+<p> Solo recuerda que <strong> NO </strong> es una carrera sino **_un viaje_** <p>
