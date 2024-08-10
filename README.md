@@ -1,6 +1,6 @@
 > [!NOTE]  
 > Repositorio de Git personal de Ricardo Prieto
-> esto es ya que mi cometido con esto es mejorar mi logica para poder trabajar
+> esto es ya que mi cometido con esto es mejorar mi logica para llegar trabajar
 > en Micosoft
 
 <h1> Bienvenido Ricardo a 30 Days to Microsoft </h1>
