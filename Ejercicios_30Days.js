@@ -16,7 +16,7 @@
     console.log(challenge.toLocaleLowerCase())
 
 // Cut (slice) out the first word of the string using substr() or substring() method
-    console.log(challenge.substring(4))
+    console.log(challenge.substring(3))
 
 // Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
     console.log(challenge.substring(0,2))
@@ -62,9 +62,21 @@
     console.log(string.search('because'))
 
 // Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+    console.log(challenge.trim())
 
-// Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+// Use startsWith() method with the string 30 Days Of JavaScript and make the result true    
+    // TODO:
+
 // Use endsWith() method with the string 30 Days Of JavaScript and make the result true
+    console.log(challenge.endsWith('JavaScript'))
+
 // Use match() method to find all the a’s in 30 Days Of JavaScript
+    // TODO:
+
 // Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+    let p1 = "30 Days of"
+
+    console.log(p1.concat( " " + "JavaScipt"))
+
 // Use repeat() method to print 30 Days Of JavaScript 2 times
+    console.log(challenge.repeat(2))
