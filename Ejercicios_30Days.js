@@ -155,10 +155,25 @@
 
 //* Exercises: Level 3
 // 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
+    let Dios = 'Love is the best thing in this world. Some found their love and some are still looking for their love.' //! LEGALMENTE TIENE QUE SER 3
+    console.log(Dios.search('love'))
+    
+        // TODO: Pero porque el ejemplo de aca abajo si reconoce el str 'love' 
+    let str = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+    console.log(str.search('love'))  
 
 // Use match() to count the number of all because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+    // TODO: HMMMMM VOY en mala racha mano 
 
 // Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+    const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
 
-//     const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
 // Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+let nom = 'Ricardo'
+let gana = 5000
+let anual= 10000
+let cursos= 15000
+
+let calcular = (5000*12)+(10000)+(15000*12)
+console.log(nom + " gana "+calcular+" al año")
