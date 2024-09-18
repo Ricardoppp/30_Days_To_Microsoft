@@ -1,0 +1,11 @@
+Exercises: Level 1
+Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
+
+Check if type of '10' is equal to 10
+
+Check if parseInt('9.8') is equal to 10
+
+Boolean value is either true or false.
+
+Write three JavaScript statement which provide truthy value.
+Write three JavaScript statement which provide falsy value.
